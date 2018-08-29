@@ -1,0 +1,192 @@
+.style1 {
+    font-family: 'Mrs Sheppards', cursive;
+    text-align:center;
+    font-size:80px;
+    color:rgb(206, 80, 7)
+
+}
+.mainnavbar {
+    display:flex;
+    justify-content: flex-end;
+
+}
+.stuffinnav {
+    display:flex;
+    justify-content:center;
+}
+li {
+    margin-left:5px;
+    margin-right:5px;
+}
+body, html {
+    height:100%;
+    margin:0;
+}
+
+.bg {
+    background-image: url(https://50-best.com/images/awesome_wallpapers/black_and_white_forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    min-height:100%;
+}
+.headercont{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.mainnavbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.colorme {
+    color:rgb(206, 80, 7);
+}
+/* .navbar-toggler-icon {
+    color:rgb(206, 80, 7);
+} */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(206, 80, 7);
+  } 
+
+  
+.mainnavbar {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 99999;
+    top: 0px;
+}  
+
+.aboutcont {
+    background-color:transparent;
+    margin-top:500px;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top:100px;
+}
+.aboutcont1 {
+    background-color:rgba(29, 29, 29, 0.8);
+    color:rgb(187, 187, 187);
+    border:solid 1px rgba(206, 80, 7,0.1);
+
+
+
+}
+.abouthead {
+    text-align:center;
+
+}
+
+.portcont {
+    background-color:transparent;
+    margin-top:500px;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top:100px;
+}
+.portcont1 {
+    background-color:rgba(29, 29, 29, 0.8);
+    color:rgb(187, 187, 187);
+    border:solid 1px rgba(206, 80, 7,0.1);
+
+
+}
+.porthead {
+    text-align:center;
+
+}
+.contactcont {
+    background-color:transparent;
+    margin-top:500px;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top:100px;
+    padding-bottom:200px;
+}
+.contactcont1 {
+    background-color:rgba(29, 29, 29, 0.8);
+    color:rgb(187, 187, 187);
+    border:solid 1px rgba(206, 80, 7,0.1);
+
+
+}
+.contacthead {
+    text-align:center;
+
+}
+.controw {
+    display:flex;
+    text-align:center;
+
+}
+.constimg {
+    height:150px;
+    width:150px;
+    object-fit: contain;
+    align-self:center;
+    /* max-width:150px;
+    max-height: 150px; */
+
+}
+.portrows {
+    margin-top:15px;
+    margin-bottom:15px;
+    border:solid 1px rgba(206, 80, 7,0.1);
+    text-align:center;
+
+}
+.projectnm, .projectwords{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+
+}
+.aboutimg {
+    float:left;
+    margin:10px;
+
+}
+.aboutwords {
+    overflow-wrap:auto;
+}
+.linkedinpic {
+    width:150px;
+    height:150px;
+    
+}
+.githubpic {
+    width:150px;
+    height:150px;
+}
+.resumecont {
+    background-color:transparent;
+    margin-top:10px;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top:10px;
+    padding-bottom:200px;
+}
+.resumecont1 {
+    background-color:rgba(29, 29, 29, 0.8);
+    color:rgb(187, 187, 187);
+    border:solid 1px rgba(206, 80, 7,0.1);
+
+
+}
+.resumehead {
+    text-align:center;
+
+}
+.resumerow {
+    display:flex;
+    text-align:center;
+}
+.resumeimg {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+
+}
