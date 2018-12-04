@@ -22,9 +22,7 @@ body, html {
     height:100%;
     margin:0;
 }
-
 .bg {
-
     background-image: url(https://50-best.com/images/awesome_wallpapers/black_and_white_forest.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -32,7 +30,6 @@ body, html {
     background-size:cover;
     min-height:100%;
     min-width:100%;
-
 }
 .headercont{
     background-color: rgba(0, 0, 0, 0.7);
@@ -43,23 +40,21 @@ body, html {
 .colorme {
     color:rgb(206, 80, 7);
 }
-
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-  .custom-toggler.navbar-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
     border-color: rgb(206, 80, 7);
-  } 
-
-  
+} 
+.navbar-toggler-icon{
+   color: rgb(206, 80, 7);
+}
 .mainnavbar {
     position: -webkit-sticky;
     position: sticky;
     z-index: 99999;
     top: 0px;
 }  
-
 .aboutcont {
     background-color:transparent;
     margin-top:500px;
@@ -77,7 +72,6 @@ body, html {
 .abouthead {
     text-align:center;
 }
-
 .portcont {
     background-color:transparent;
     margin-top:500px;
@@ -176,5 +170,4 @@ body, html {
     display:flex;
     justify-content: center;
     align-content: center;
-    /* text-align: center; */
 }
