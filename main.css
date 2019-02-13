@@ -1,14 +1,18 @@
 .style1 {
     font-family: 'Mrs Sheppards', cursive;
     text-align:center;
-    font-size:80px;
-    color:rgb(206, 80, 7)
-
+    font-size:100px;
+    color:rgb(206, 80, 7);
+}
+.occupation {
+    text-align:center;
+    font-size:26px;
+    color:rgb(187, 187, 187);
+    margin-bottom:1%;
 }
 .mainnavbar {
     display:flex;
     justify-content: flex-end;
-
 }
 .stuffinnav {
     display:flex;
@@ -22,8 +26,8 @@ body, html {
     height:100%;
     margin:0;
 }
-.bg {
-    background-image: url(https://50-best.com/images/awesome_wallpapers/black_and_white_forest.jpg);
+.backgroundImage {
+    background-image: url(./portfolio_wallpaper.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position: center;
@@ -32,6 +36,7 @@ body, html {
     min-width:100%;
 }
 .headercont{
+    padding-top:2%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 .mainnavbar {
@@ -50,7 +55,6 @@ body, html {
    color: rgb(206, 80, 7);
 }
 .mainnavbar {
-    position: -webkit-sticky;
     position: sticky;
     z-index: 99999;
     top: 0px;
@@ -124,6 +128,11 @@ body, html {
     flex-direction:row;
     align-items:center;
     justify-content: center;
+}
+.projectnm {
+    color:rgb(214, 214, 214);
+    font-weight: bold;
+    font-size: 22px
 }
 .aboutimg {
     float:left;
